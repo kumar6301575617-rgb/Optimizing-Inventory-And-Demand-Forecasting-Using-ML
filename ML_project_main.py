@@ -1015,7 +1015,7 @@ def logout():
     st.markdown("<br><br>", unsafe_allow_html=True)
         
 
-    video_file = open("an animation of a hand drawn business strategy with chart_preview.mp4", "rb")
+    video_file = open("src/videos/an animation of a business strategy.mp4", "rb")
     video_bytes = video_file.read()
 
     st.video(
@@ -1056,6 +1056,7 @@ def main():
 # Call the main function to route the app
 if __name__ == "__main__":
     main()
+
 
 
 
