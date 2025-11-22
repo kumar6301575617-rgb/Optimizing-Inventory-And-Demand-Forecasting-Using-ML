@@ -241,7 +241,7 @@ def toggle_data_visibility():
 def app(): 
 
     st.header("Welcome to the Web Application")
-    st.image(r"banner3.jpeg", use_column_width=True)
+    st.image(r"src/images/banner3.jpeg", use_column_width=True)
     st.title("Demand Forecasting & Inventory Optimization📈")
 
     
@@ -1056,6 +1056,7 @@ def main():
 # Call the main function to route the app
 if __name__ == "__main__":
     main()
+
 
 
 
