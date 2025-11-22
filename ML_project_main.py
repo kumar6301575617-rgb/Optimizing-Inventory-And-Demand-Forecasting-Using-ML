@@ -839,7 +839,7 @@ def show_about():
     - New models like **XGBoost** and **Prophet** are in development for more accurate predictions.
     """)
     st.write("")
-    st.image(r"future imp2.png", caption='Empowering Growth Through Data-Driven Insights and Forecasting', width=700, clamp=True, channels='RGB')
+    st.image(r"src/images/future imp2.png", caption='Empowering Growth Through Data-Driven Insights and Forecasting', width=700, clamp=True, channels='RGB')
 
 def show_ask_question():
     st.title("Ask a Question")
@@ -1056,6 +1056,7 @@ def main():
 # Call the main function to route the app
 if __name__ == "__main__":
     main()
+
 
 
 
